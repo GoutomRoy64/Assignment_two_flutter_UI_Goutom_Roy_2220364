@@ -49,7 +49,7 @@ class ProfileScreen extends StatelessWidget {
         const CircleAvatar(
           radius: 25,
           backgroundColor: Color(0xFF5346E8),
-          child: Text("S", style: TextStyle(color: Colors.white, fontSize: 20)),
+          child: Text("G", style: TextStyle(color: Colors.white, fontSize: 20)),
         ),
         const SizedBox(width: 15),
         Column(
@@ -92,7 +92,7 @@ class ProfileScreen extends StatelessWidget {
       ),
       child: const Center(
         child: Text(
-          "SN",
+          "G",
           style: TextStyle(
               color: Colors.white,
               fontSize: 36,
