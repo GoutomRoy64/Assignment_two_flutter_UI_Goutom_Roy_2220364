@@ -10,7 +10,7 @@ class ProfileScreen extends StatelessWidget {
         padding: const EdgeInsets.all(20.0),
         child: Column(
           children: [
-            // 1. Top Header (Matching the Home Screen style)
+            // 1. Top Header
             _buildHeader(),
             const SizedBox(height: 30),
 
@@ -55,7 +55,7 @@ class ProfileScreen extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: const [
-            Text("Welcome back,", style: TextStyle(color: Colors.grey, fontSize: 12)),
+            Text("Welcome back", style: TextStyle(color: Colors.grey, fontSize: 12)),
             Text("Goutom Roy", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
           ],
         ),

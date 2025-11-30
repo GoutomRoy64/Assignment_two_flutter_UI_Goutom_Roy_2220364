@@ -63,7 +63,7 @@ class CardsScreen extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: const [
-            Text("Welcome back,", style: TextStyle(color: Colors.grey, fontSize: 12)),
+            Text("Welcome back", style: TextStyle(color: Colors.grey, fontSize: 12)),
             Text("Goutom Roy", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
           ],
         ),

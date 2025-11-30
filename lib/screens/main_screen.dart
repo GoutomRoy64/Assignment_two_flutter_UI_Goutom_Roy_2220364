@@ -19,6 +19,8 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       // The PageView controls which screen is visible
+
+
       body: PageView(
         controller: _pageController,
         physics: const NeverScrollableScrollPhysics(), // Disables swiping
@@ -39,7 +41,7 @@ class _MainScreenState extends State<MainScreen> {
           currentIndex: _currentIndex,
           onTap: (i) {
             setState(() => _currentIndex = i);
-            _pageController.jumpToPage(i); // Logic from your screenshot
+            _pageController.jumpToPage(i);
           },
           type: BottomNavigationBarType.fixed,
           backgroundColor: Colors.white,

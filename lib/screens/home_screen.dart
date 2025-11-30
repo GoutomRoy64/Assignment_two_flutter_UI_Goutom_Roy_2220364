@@ -109,7 +109,7 @@ class HomeScreen extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(25),
       decoration: BoxDecoration(
-        color: const Color(0xFF5346E8), // The purple color from image
+        color: const Color(0xFF5346E8),
         borderRadius: BorderRadius.circular(25),
         boxShadow: [
           BoxShadow(
@@ -166,7 +166,7 @@ class HomeScreen extends StatelessWidget {
 
   Widget _buildActionButton(IconData icon, String label) {
     return Container(
-      width: 100, // Fixed width for uniformity
+      width: 100,
       padding: const EdgeInsets.symmetric(vertical: 15),
       decoration: BoxDecoration(
         color: Colors.white,

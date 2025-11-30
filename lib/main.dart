@@ -12,10 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Finance App',
+      title: 'assignment_two_flutter_ui',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
-        scaffoldBackgroundColor: const Color(0xFFF7F9FC), // Light grey background
+        scaffoldBackgroundColor: const Color(0xFFF7F9FC), // Light grey background color for every single page
         useMaterial3: true,
       ),
       home: const MainScreen(),
